@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+fieldset {
+    padding: .35em .625em .75em;
+    margin: 0 2px 20px;
+    border: 1px solid silver;
+}
+
+legend {
+  display: block;
+  width: auto;
+  padding: 0;
+  margin-bottom: 1px;
+  font-size: 18px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  text-align: center;
+}
+body{
+	font-family: 'Arial',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+#bplForm .panel-heading h2{
+	
+	margin: 0px;
+
+}
+#bplForm  input{
+	border-radius: 0px;
+}
+.shipper input.form-control,.consignee input.form-control,.notify input.form-control{
+	margin-bottom: 30px;
+	border-radius: 0px;
+}
+.shipper textarea.form-control,.consignee textarea.form-control,.notify textarea.form-control{
+	margin-bottom: 10px;
+	border-radius: 0px;
+}
+label {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+label span{
+	color: red;
+	margin: 0px 4px;
+}
+label[for="containernumber"]{
+	font-size: 13px;
+}
+
+.row-add-mark-no input, .row-add-containers input{
+	margin-bottom: 1em;
+	border-radius: 0px;
+
+}
+.row-add-description textarea{
+	resize: none;
+	margin-bottom: 1em;
+	border-radius: 0px;
+}

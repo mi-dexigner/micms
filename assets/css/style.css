@@ -1,0 +1,279 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+      
+}
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('../fonts/bebasneue_light-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('../fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatblack';
+    src: url('../fonts/akrobat-black-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatbold';
+    src: url('../fonts/akrobat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatextrabold';
+    src: url('../fonts/akrobat-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatextralight';
+    src: url('../fonts/akrobat-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatlight';
+    src: url('../fonts/akrobat-light-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatregular';
+    src: url('../fonts/akrobat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'akrobatsemibold';
+    src: url('../fonts/akrobat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'akrobatthin';
+    src: url('../fonts/akrobat-thin-webfont.woff2') format('woff2'),
+         url('../fonts/akrobat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.item:nth-child(1) {
+    background: url(../img/bgcover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url(../img/bgcover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background: url(../img/bgcover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel {
+    z-index: -99;
+}
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+/* .title {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+  color: #FFF;
+} */
+
+
+.title {
+    background: rgba(53,75,97,0.75);
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px 10px 10px 54px;
+    color: #FFF;
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 26%;
+    height: 158px;
+}
+
+.title .container-fluid{
+    margin: 0px;
+}
+
+.title h1{
+     font-family: 'bebas_neuelight';
+     font-size: 73px;
+     margin-bottom: 0px;
+}
+.title p{
+    font-family: 'akrobatbold',sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+.services {
+    position: absolute;
+    z-index: 999;
+    bottom: 0px;
+   /* overflow: hidden;*/
+}
+.service-list img{
+    height: 84px;
+}
+.service-list a{
+    display: block;
+    color: #FFFfff;
+    margin-top: 20px;
+   /* background: rgba(31,64,95,.66);*/
+        padding: 10px 0px;
+        position: relative;
+}
+.services:before{
+    content: '';
+    background: rgba(31,64,95,.66);
+    width: 100%;
+    padding: 20px 0px;
+    position: absolute;
+    left: 0px;
+    bottom:  0px;
+    padding: 20px 0px;
+    z-index: -1;
+}
+.services:after{
+    content: '';
+    background: rgba(31,64,95,.66);
+    width: 23%;
+    padding: 20px 0px;
+    position: absolute;
+    right: -268px;
+    bottom: 0px;
+    padding: 20px 0px;
+}
+/*.service-list a:before,.service-list a:after{
+content: '';
+background: rgba(31,64,95,.66);
+width: 100%;
+padding: 10px 0px;
+z-index: 1;
+}
+.service-list a:before{
+     position: absolute;
+    left: -162px;
+    top: 0px;
+    padding: 20px 0px;
+}
+.service-list a:after{
+     position: absolute;
+    right: -162px;
+    top: 0px;
+    padding: 20px 0px;
+}*/

@@ -1,0 +1,8 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+#https://stackoverflow.com/questions/37388478/issue-with-multilevel-sub-menu-with-bootstrap-menu
+
+User-agent: *
+
+
+https://www.daniweb.com/programming/web-development/threads/337605/disable-the-user-for-6hrs-when-he-inputs-the-wrong-password-3-times
